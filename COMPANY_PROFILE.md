@@ -1,10 +1,17 @@
-# Abhinandan Creation — Company Profile
+<p align="center">
+  <img src="assets/cover.png" alt="Abhinandan Creation - Cover" style="max-width:100%; height:auto;" />
+</p>
+
+<div align="center">
+  <img src="assets/logo.png" alt="Abhinandan Creation Logo" width="140" height="140" />
+
+  # Abhinandan Creation — Company Profile
+
+  **Quality fabrics and traditional designs — crafted for celebrations**
+</div>
 
 ## Overview
 Abhinandan Creation is a textile and ethnic wear company engaged in manufacturing, wholesale, and retail of fabrics and traditional Indian garments. The company specializes in a wide range of fabrics and finished garments with a focus on sarees, lehengas, wedding and designer apparel, and related home textiles.
-
-## Tagline
-Quality fabrics and traditional designs — crafted for celebrations.
 
 ## Key Products & Services
 - Fabrics: cotton, lycra, rayon, polyester, velvet, shirting fabrics
@@ -41,12 +48,4 @@ To deliver high-quality textiles and designer ethnic wear that celebrate Indian 
 This profile was compiled from public listings on LinkedIn and IndiaMART and corroborating company directories (ZaubaCorp, GST lookup). Some details vary between listings and there appear to be multiple small businesses with similar names in different cities (Surat, Ahmedabad, Thane). Please review and confirm the precise office address and contact person to ensure accuracy for official use.
 
 ## Sources
-(See the attached source summary fetched from LinkedIn and IndiaMART pages.)
-
----
-
-If you'd like, I can now: 
-- Commit this file to the repository's default branch (already done), or
-- Rename or move it to README.md, or
-- Add a company logo, social links section, or a contact card.
-
+LinkedIn and IndiaMART public listings and corroborating company directories.
