@@ -56,40 +56,40 @@
 ## 🗺️ How every system connects
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial','fontSize':'15px','lineColor':'#58a6ff','primaryTextColor':'#ffffff'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial','fontSize':'15px','lineColor':'#58a6ff'}}}%%
 flowchart LR
     subgraph S1["🧵 Merchandising & Sampling"]
         direction TB
-        A["💰 Costing Enquiry<br/><small>buyer enquiry · PDF</small>"]
-        B["🧵 Sample Tracker<br/><small>Fit → Size Set → PP → GPT</small>"]
-        C["✂️ Internal Sample Tracker<br/><small>sampling room jobs</small>"]
+        A["💰 Costing Enquiry<br/>buyer enquiry · PDF"]
+        B["🧵 Sample Tracker<br/>Fit → Size Set → PP → GPT"]
+        C["✂️ Internal Sample Tracker<br/>sampling room jobs"]
         A ==> B ==> C
     end
 
     subgraph S2["🔎 Inward Quality"]
         direction TB
-        F["🧶 4-Point Fabric<br/><small>roll scoring</small>"]
-        M["🏷️ MQA Trims<br/><small>10 / 50 / 100%</small>"]
+        F["🧶 4-Point Fabric<br/>roll scoring"]
+        M["🏷️ MQA Trims<br/>10 / 50 / 100%"]
     end
 
     subgraph S3["🏗️ Production"]
         direction TB
-        D["📋 PMS · Master Order Plan<br/><small>cutting → finishing</small>"]
-        P["📈 Production Report<br/><small>hourly · line-wise</small>"]
+        D["📋 PMS · Master Order Plan<br/>cutting → finishing"]
+        P["📈 Production Report<br/>hourly · line-wise"]
         D ==> P
     end
 
     subgraph S4["✅ Final Quality & Dispatch"]
         direction TB
-        Q["✅ AQL Portal<br/><small>final inspection</small>"]
+        Q["✅ AQL Portal<br/>final inspection"]
         X(["🚚 Dispatch"])
         Q ==> X
     end
 
     subgraph S5["🏠 Platform & People"]
         direction TB
-        H["🏠 AC Central Hub<br/><small>single sign-in · Help Desk</small>"]
-        K["🔍 PC Audit Dashboard<br/><small>checklists · FMS audit</small>"]
+        H["🏠 AC Central Hub<br/>single sign-in · Help Desk"]
+        K["🔍 PC Audit Dashboard<br/>checklists · FMS audit"]
         T["🎫 Help Tickets"]
         G["🗂️ Delegation"]
         R["👥 HR Forms"]
@@ -99,8 +99,8 @@ flowchart LR
     F ==>|fabric passed| D
     M ==>|trims passed| D
     P ==>|goods ready| Q
-    H -.->|opens| S1
-    H -.->|opens| S3
+    H -.->|opens| B
+    H -.->|opens| D
     K -.->|audits| D
     T -.-> H
 
@@ -114,12 +114,11 @@ flowchart LR
     class D,P prod
     class X ship
     class H,K,T,G,R plat
-    style S1 fill:#7c3aed14,stroke:#7c3aed,stroke-width:2px,color:#8b949e
-    style S2 fill:#0891b214,stroke:#0891b2,stroke-width:2px,color:#8b949e
-    style S3 fill:#16a34a14,stroke:#16a34a,stroke-width:2px,color:#8b949e
-    style S4 fill:#1f6feb14,stroke:#1f6feb,stroke-width:2px,color:#8b949e
-    style S5 fill:#0b3a6814,stroke:#f5b942,stroke-width:2px,color:#8b949e
-    linkStyle default stroke:#58a6ff,stroke-width:2px
+    style S1 fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px,color:#0b3a68
+    style S2 fill:#e0f7fa,stroke:#0891b2,stroke-width:2px,color:#0b3a68
+    style S3 fill:#e8f7ee,stroke:#16a34a,stroke-width:2px,color:#0b3a68
+    style S4 fill:#e7f0ff,stroke:#1f6feb,stroke-width:2px,color:#0b3a68
+    style S5 fill:#fff7e0,stroke:#f5b942,stroke-width:2px,color:#0b3a68
 ```
 
 <img src="assets/divider.svg" width="100%" />
