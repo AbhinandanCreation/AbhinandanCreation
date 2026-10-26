@@ -1,103 +1,238 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Abhinandan Creation" width="260" />
+<img src="assets/header.svg" alt="Abhinandan Creation" width="100%" />
 
-### Garment manufacturing, run on our own digital systems
+<img src="assets/typing.svg" alt="Enquiry to Dispatch, 13 in-house web apps, live shop-floor data, built by our MIS team" width="760" />
 
-From the first buyer enquiry to the final dispatch — every step on our floor is tracked in software built in-house by our MIS team.
-
-<br/>
-
-![Web apps](https://img.shields.io/badge/in--house%20web%20apps-13-0b3a68?style=for-the-badge)
-![Departments](https://img.shields.io/badge/departments%20covered-8+-1f6feb?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-Google%20Workspace-34A853?style=for-the-badge&logo=google&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/in--house%20apps-13-0b3a68?style=for-the-badge&labelColor=0a2c52" />
+  <img src="https://img.shields.io/badge/platform-Google%20Workspace-34A853?style=for-the-badge&logo=google&logoColor=white&labelColor=0a2c52" />
+  <img src="https://img.shields.io/badge/ERP-ERPNext-0089FF?style=for-the-badge&logo=frappe&logoColor=white&labelColor=0a2c52" />
+  <!-- LAST_SYNC --><img src="https://img.shields.io/badge/last%20sync-2026--10--26-f5b942?style=for-the-badge&labelColor=0a2c52" /><!-- /LAST_SYNC -->
+</p>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 🏭 About us
 
-**Abhinandan Creation** is an apparel manufacturer. Our MIS team builds the tools that run the business — sampling, costing, production planning, quality control, HR and day-to-day process audits — so that every order, every roll of fabric and every line on the floor is visible in real time.
+<img align="right" src="assets/logo.png" width="220" alt="Abhinandan Creation logo" />
 
-## 🔄 How our systems connect
+**Abhinandan Creation** is an apparel manufacturer. Our MIS team builds the software that runs the business, so that every order, every roll of fabric and every line on the floor can be seen in real time.
+
+- 🧵 **Sampling & costing**: from the first buyer enquiry to the approved sample
+- 🏗️ **Production**: daily plans, hourly line output and efficiency
+- 🔎 **Quality**: fabric, trims and final AQL inspections, all on the phone
+- 👥 **People & process**: HR forms, delegation, checklists and audits
+
+<br clear="right" />
+
+<div align="center">
+  <img src="assets/stats.svg" alt="13 web apps, 8+ departments, 6 order stages, 100% built in-house" width="100%" />
+</div>
+
+<img src="assets/divider.svg" width="100%" />
+
+## 🔄 One order, start to finish
+
+<div align="center">
+  <img src="assets/pipeline.svg" alt="Order flow: Enquiry, Sampling, Planning, Production, Quality, Dispatch" width="100%" />
+</div>
+
+<details>
+<summary><b>🗺️ See how every system connects</b></summary>
+<br/>
 
 ```mermaid
 flowchart LR
-    A[Costing Enquiry] --> B[Sample Tracker]
-    B --> C[Internal Sample Tracker]
-    B --> D[PMS · Master Order Plan]
-    M[MQA · Trims & Accessories] --> D
-    F[4-Point Fabric Inspection] --> D
-    D --> P[Production Report<br/>hourly · line-wise]
-    P --> Q[AQL Quality Portal]
-    Q --> X((Dispatch))
-
-    H[AC Central Hub] -.-> B
+    A[💰 Costing Enquiry] --> B[🧵 Sample Tracker]
+    B --> C[✂️ Internal Sample Tracker]
+    B --> D[📋 PMS · Master Order Plan]
+    M[🏷️ MQA · Trims] --> D
+    F[🧶 4-Point Fabric] --> D
+    D --> P[📈 Production Report]
+    P --> Q[✅ AQL Portal]
+    Q --> X((🚚 Dispatch))
+    H[🏠 AC Central Hub] -.-> B
     H -.-> D
     H -.-> P
     H -.-> Q
-    K[PC Audit Dashboard] -.audits.-> D
+    K[🔍 PC Audit Dashboard] -.audits.-> D
+    T[🎫 Help Tickets] -.-> H
 ```
+
+</details>
+
+<img src="assets/divider.svg" width="100%" />
 
 ## 🧩 Our web apps
 
-> All application repositories are **private** — they are listed here to show the scope of our in-house platform.
+> 🔒 All app repositories are **private**. They are listed here to show the scope of our in-house platform.
 
-### Merchandising & Sampling
-| App | What it does |
-|---|---|
-| 💰 **[Costing Enquiry](https://github.com/AbhinandanCreation/costing-enquiry)** | Buyer enquiry form with Drive-filed attachments, auto-generated PDF summary and instant team notification |
-| 🧵 **[Sample Tracker](https://github.com/AbhinandanCreation/sample-tracker)** | Every sample from Fit/Proto → Size Set → PP → GPT, with a Plan-vs-Actual engine and responsibility matrix |
-| ✂️ **[Internal Sample Tracker](https://github.com/AbhinandanCreation/internal-sample-tracker)** | Sampling-room jobs: Raw Material → Cutting → Moulding → Stitching → Handover, with team load-balancing |
+<table>
+<tr>
+<td colspan="2" align="center"><h3>🧵 Merchandising & Sampling</h3></td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### Production
-| App | What it does |
-|---|---|
-| 📋 **[PMS — Shop-Floor Entry](https://github.com/AbhinandanCreation/pms-shop-floor)** | Department-wise daily entry that drives the Master Order Plan from cutting to dispatch |
-| 📈 **[AC Production Report](https://github.com/AbhinandanCreation/production-report)** | Hourly, line-wise output and efficiency vs SMV-based plan, with style and supervisor dashboards |
+### 💰 [Costing Enquiry](https://github.com/AbhinandanCreation/costing-enquiry)
+Buyer enquiry form: guided flows, Drive-filed attachments, an auto-made **PDF summary** and instant team alerts.
 
-### Quality
-| App | What it does |
-|---|---|
-| 🧶 **[4-Point Fabric Inspection](https://github.com/AbhinandanCreation/fabric-4-point-inspection)** | Roll-wise fabric scoring with automatic pass/fail and photo reports |
-| 🏷️ **[MQA — Trims & Accessories](https://github.com/AbhinandanCreation/mqa-trims-accessories)** | Staged 10% / 50% / 100% audits of incoming trims, synced with ERPNext |
-| ✅ **[AQL Quality Portal](https://github.com/AbhinandanCreation/aql-quality-portal)** | AQL final inspections on the phone with checker- and style-wise dashboards |
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-Drive-34A853?style=flat-square) ![](https://img.shields.io/badge/-PDF-e34f26?style=flat-square)
 
-### Operations, People & Platform
-| App | What it does |
-|---|---|
-| 🏠 **[AC Central Hub](https://github.com/AbhinandanCreation/ac-central-hub)** | One portal to every app, sheet and dashboard — role-based access and a Help Desk |
-| 🔍 **[Checklist Dashboards](https://github.com/AbhinandanCreation/checklist-dashboards)** | PC Audit Dashboard: on-time performance of checklists and FMS, people scorecards, follow-up tickets |
-| 🗂️ **[Delegation System](https://github.com/AbhinandanCreation/delegation-system)** | Assign, revise and follow up tasks with weekly scores and daily reminders |
-| 👥 **[HR Forms](https://github.com/AbhinandanCreation/hr-forms)** | Grievance, Referral and Reimbursement forms with signatures, print copies and dashboards |
-| 🎫 **[Help Ticket Sheet](https://github.com/AbhinandanCreation/help-ticket-sheet)** | Automation that keeps the shared Help Tickets register tidy |
+</td>
+<td width="50%" valign="top">
 
-## 🛠️ Tech stack
+### 🧵 [Sample Tracker](https://github.com/AbhinandanCreation/sample-tracker)
+Every sample from Fit/Proto → Size Set → PP → GPT, with a **Plan-vs-Actual engine** and a responsibility matrix.
 
-![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
-![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)
-![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat-square&logo=looker&logoColor=white)
-![ERPNext](https://img.shields.io/badge/ERPNext-0089FF?style=flat-square&logo=frappe&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![clasp](https://img.shields.io/badge/clasp-CLI-555?style=flat-square)
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-Plan%20vs%20Actual-7c3aed?style=flat-square)
 
-## ✨ What our systems give us
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
-- **One source of truth** — every app writes to Google Sheets the team already knows
-- **Mobile-first** — supervisors and checkers enter data from the floor on their phones
-- **Plan vs Actual everywhere** — frozen plan dates, real timestamps, on-time rates
-- **Secure by default** — company Google sign-in, role-based access, no secrets in code
-- **Built in-house** — changes go live in hours, not weeks
+### ✂️ [Internal Sample Tracker](https://github.com/AbhinandanCreation/internal-sample-tracker)
+Sampling-room jobs: **Raw Material → Cutting → Moulding → Stitching → Handover**, with automatic team load-balancing, linked live to the Sample Tracker.
 
-## 📬 Contact
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-Auto%20sync-16a34a?style=flat-square)
 
-📧 [mis@abhinandancreation.in](mailto:mis@abhinandancreation.in)
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"><h3>🏗️ Production</h3></td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📋 [PMS: Shop-Floor Entry](https://github.com/AbhinandanCreation/pms-shop-floor)
+Department-wise daily entry on the phone that drives the **Master Order Plan** from cutting to dispatch.
+
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-ERPNext-0089FF?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 [AC Production Report](https://github.com/AbhinandanCreation/production-report)
+Hourly, line-wise output and **efficiency against an SMV-based plan**, with style and supervisor dashboards.
+
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-PIN%20sign--in-ea580c?style=flat-square)
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"><h3>🔎 Quality</h3></td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧶 [4-Point Fabric Inspection](https://github.com/AbhinandanCreation/fabric-4-point-inspection)
+Roll-wise fabric scoring with automatic **pass / fail** and photo reports saved to Drive.
+
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-Drive-34A853?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏷️ [MQA: Trims & Accessories](https://github.com/AbhinandanCreation/mqa-trims-accessories)
+Staged **10% → 50% → 100%** audits of incoming trims, synced every hour with ERPNext.
+
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-ERPNext%20API-0089FF?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### ✅ [AQL Quality Portal](https://github.com/AbhinandanCreation/aql-quality-portal)
+AQL final inspections on the phone, with dashboards by checker and by style.
+
+![](https://img.shields.io/badge/-Apps%20Script-4285F4?style=flat-square) ![](https://img.shields.io/badge/-Mobile%20first-0891b2?style=flat-square)
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"><h3>👥 Operations, People & Platform</h3></td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏠 [AC Central Hub](https://github.com/AbhinandanCreation/ac-central-hub)
+One portal for every app, sheet and dashboard, with **role-based access** and a built-in Help Desk.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔍 [Checklist Dashboards](https://github.com/AbhinandanCreation/checklist-dashboards)
+PC Audit Dashboard: on-time performance for checklists and FMS, people scorecards and follow-up tickets.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🗂️ [Delegation System](https://github.com/AbhinandanCreation/delegation-system)
+Assign, revise and follow up on tasks, with weekly scores and daily email reminders.
+
+</td>
+<td width="50%" valign="top">
+
+### 👥 [HR Forms](https://github.com/AbhinandanCreation/hr-forms)
+Grievance, Referral and Reimbursement forms with signatures, print copies and dashboards.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🎫 [Help Ticket Sheet](https://github.com/AbhinandanCreation/help-ticket-sheet)
+Automation that keeps the shared Help Tickets register tidy: solved tickets move out, reopened tickets move back.
+
+</td>
+</tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" />
+
+## 🛠️ Built with
 
 <div align="center">
-<sub>© Abhinandan Creation · MIS Team</sub>
+
+<img src="https://skillicons.dev/icons?i=gcp,js,html,css,nodejs,git,github,vscode&perline=8" alt="Tech icons" />
+
+<br/><br/>
+
+![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+![ERPNext](https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=frappe&logoColor=white)
+![clasp](https://img.shields.io/badge/clasp-CLI-555555?style=for-the-badge)
+
+</div>
+
+## ✨ Why we build our own
+
+| | |
+|---|---|
+| 📊 **One source of truth** | Every app writes to the Google Sheets the team already knows |
+| 📱 **Mobile-first** | Supervisors and checkers enter data from the floor on their phones |
+| ⏱️ **Plan vs Actual everywhere** | Frozen plan dates, real timestamps, on-time rates |
+| 🔐 **Secure by default** | Company Google sign-in, role-based access, no secrets in code |
+| ⚡ **Fast to change** | Built in-house, so changes go live in hours, not weeks |
+
+<div align="center">
+
+## 📬 Get in touch
+
+<a href="mailto:mis@abhinandancreation.in"><img src="https://img.shields.io/badge/Email-mis%40abhinandancreation.in-0b3a68?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
+<img src="assets/footer.svg" alt="Crafted with care by the MIS team" width="100%" />
+
 </div>

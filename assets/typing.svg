@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-label="Enquiry → Sampling → Production → Quality → Dispatch | 13 in-house web apps · one connected platform | Live data from every line on the shop floor | Designed, built and run by our MIS team">
+  <g font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="600" fill="#1f6feb">
+  <clipPath id="c0"><rect x="105" y="0" height="56" width="0">
+    <animate attributeName="width" values="0;0;691;691;0;0" keyTimes="0;0.0000;0.1000;0.2000;0.2333;1" dur="18s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="105" y="37" clip-path="url(#c0)">Enquiry → Sampling → Production → Quality → Dispatch</text>
+  <rect y="14" width="3" height="28" rx="1.5" fill="#1f6feb" opacity="0" x="105">
+    <animate attributeName="x" values="105;105;796;796;105;105" keyTimes="0;0.0000;0.1000;0.2000;0.2333;1" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.0000;0.2333;0.2333" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+  </rect>
+  <clipPath id="c1"><rect x="151" y="0" height="56" width="0">
+    <animate attributeName="width" values="0;0;598;598;0;0" keyTimes="0;0.2500;0.3500;0.4500;0.4833;1" dur="18s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="151" y="37" clip-path="url(#c1)">13 in-house web apps · one connected platform</text>
+  <rect y="14" width="3" height="28" rx="1.5" fill="#1f6feb" opacity="0" x="151">
+    <animate attributeName="x" values="151;151;749;749;151;151" keyTimes="0;0.2500;0.3500;0.4500;0.4833;1" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2500;0.4833;0.4833" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+  </rect>
+  <clipPath id="c2"><rect x="164" y="0" height="56" width="0">
+    <animate attributeName="width" values="0;0;572;572;0;0" keyTimes="0;0.5000;0.6000;0.7000;0.7333;1" dur="18s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="164" y="37" clip-path="url(#c2)">Live data from every line on the shop floor</text>
+  <rect y="14" width="3" height="28" rx="1.5" fill="#1f6feb" opacity="0" x="164">
+    <animate attributeName="x" values="164;164;736;736;164;164" keyTimes="0;0.5000;0.6000;0.7000;0.7333;1" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.5000;0.7333;0.7333" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+  </rect>
+  <clipPath id="c3"><rect x="191" y="0" height="56" width="0">
+    <animate attributeName="width" values="0;0;519;519;0;0" keyTimes="0;0.7500;0.8500;0.9500;0.9833;1" dur="18s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="191" y="37" clip-path="url(#c3)">Designed, built and run by our MIS team</text>
+  <rect y="14" width="3" height="28" rx="1.5" fill="#1f6feb" opacity="0" x="191">
+    <animate attributeName="x" values="191;191;710;710;191;191" keyTimes="0;0.7500;0.8500;0.9500;0.9833;1" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.7500;0.9833;0.9833" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+  </rect>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-label="Abhinandan Creation MIS team">
+  <defs>
+    <linearGradient id="f" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a2c52"/><stop offset="0.5" stop-color="#0b3a68"/><stop offset="1" stop-color="#1a4f91"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#f)" d="M0 40 Q 160 10 320 40 T 640 40 T 960 40 T 1280 40 T 1600 40 T 1920 40 T 2240 40 T 2560 40 V 150 H 0 Z">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -640 0" dur="16s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#ffffff" opacity="0.08" d="M0 55 Q 200 30 400 55 T 800 55 T 1200 55 T 1600 55 T 2000 55 T 2400 55 V 150 H 0 Z">
+    <animateTransform attributeName="transform" type="translate" values="-400 0; 0 0" dur="11s" repeatCount="indefinite"/>
+  </path>
+  <text x="640" y="112" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="18" fill="#cfe0f5" text-anchor="middle" letter-spacing="2">
+    CRAFTED WITH CARE · MIS TEAM · ABHINANDAN CREATION
+  </text>
+</svg>

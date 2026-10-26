@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Order flow: Enquiry to Sampling to Planning to Production to Quality to Dispatch">
+  <defs>
+    <radialGradient id="glow"><stop offset="0" stop-color="#f5b942"/><stop offset="1" stop-color="#f5b942" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+    <path d="M 98 89 H 1102" stroke="#8b949e" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="8 8" fill="none">
+      <animate attributeName="stroke-dashoffset" values="0;-32" dur="1s" repeatCount="indefinite"/>
+    </path>
+    
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.00s" dur="0.6s" fill="freeze"/>
+    <rect x="14" y="46" width="168" height="86" rx="20" fill="none" stroke="#7c3aed" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.000;0.000;0.120;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="52" width="156" height="74" rx="15" fill="#7c3aed"/>
+    <rect x="20" y="52" width="156" height="37" rx="15" fill="#ffffff" opacity="0.12"/>
+    <text x="98" y="86" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Enquiry</text>
+    <text x="98" y="108" font-size="12" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">step 1</text>
+    <text x="98" y="160" font-size="14" font-weight="600" fill="#8b949e" text-anchor="middle">Costing Enquiry</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.6s" fill="freeze"/>
+    <rect x="214.8" y="46" width="168" height="86" rx="20" fill="none" stroke="#db2777" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.120;0.160;0.280;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="220.8" y="52" width="156" height="74" rx="15" fill="#db2777"/>
+    <rect x="220.8" y="52" width="156" height="37" rx="15" fill="#ffffff" opacity="0.12"/>
+    <text x="298.8" y="86" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Sampling</text>
+    <text x="298.8" y="108" font-size="12" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">step 2</text>
+    <text x="298.8" y="160" font-size="14" font-weight="600" fill="#8b949e" text-anchor="middle">Sample Trackers</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.6s" fill="freeze"/>
+    <rect x="415.6" y="46" width="168" height="86" rx="20" fill="none" stroke="#ea580c" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.280;0.320;0.440;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="421.6" y="52" width="156" height="74" rx="15" fill="#ea580c"/>
+    <rect x="421.6" y="52" width="156" height="37" rx="15" fill="#ffffff" opacity="0.12"/>
+    <text x="499.6" y="86" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Planning</text>
+    <text x="499.6" y="108" font-size="12" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">step 3</text>
+    <text x="499.6" y="160" font-size="14" font-weight="600" fill="#8b949e" text-anchor="middle">PMS · Order Plan</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.6s" fill="freeze"/>
+    <rect x="616.4000000000001" y="46" width="168" height="86" rx="20" fill="none" stroke="#16a34a" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.440;0.480;0.600;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="622.4000000000001" y="52" width="156" height="74" rx="15" fill="#16a34a"/>
+    <rect x="622.4000000000001" y="52" width="156" height="37" rx="15" fill="#ffffff" opacity="0.12"/>
+    <text x="700.4000000000001" y="86" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Production</text>
+    <text x="700.4000000000001" y="108" font-size="12" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">step 4</text>
+    <text x="700.4000000000001" y="160" font-size="14" font-weight="600" fill="#8b949e" text-anchor="middle">Hourly Report</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.6s" fill="freeze"/>
+    <rect x="817.2" y="46" width="168" height="86" rx="20" fill="none" stroke="#0891b2" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.600;0.640;0.760;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="823.2" y="52" width="156" height="74" rx="15" fill="#0891b2"/>
+    <rect x="823.2" y="52" width="156" height="37" rx="15" fill="#ffffff" opacity="0.12"/>
+    <text x="901.2" y="86" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Quality</text>
+    <text x="901.2" y="108" font-size="12" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">step 5</text>
+    <text x="901.2" y="160" font-size="14" font-weight="600" fill="#8b949e" text-anchor="middle">4-Point · MQA · AQL</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.6s" fill="freeze"/>
+    <rect x="1018" y="46" width="168" height="86" rx="20" fill="none" stroke="#1f6feb" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.760;0.800;0.920;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1024" y="52" width="156" height="74" rx="15" fill="#1f6feb"/>
+    <rect x="1024" y="52" width="156" height="37" rx="15" fill="#ffffff" opacity="0.12"/>
+    <text x="1102" y="86" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Dispatch</text>
+    <text x="1102" y="108" font-size="12" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">step 6</text>
+    <text x="1102" y="160" font-size="14" font-weight="600" fill="#8b949e" text-anchor="middle">PMS Dispatch</text>
+  </g>
+    <g>
+      <animateMotion path="M 98 89 H 1102" dur="7s" keyPoints="0;1;1" keyTimes="0;0.8;1" calcMode="linear" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.78;0.84;1" dur="7s" repeatCount="indefinite"/>
+      <circle r="18" fill="url(#glow)"/>
+      <circle r="6" fill="#f5b942"/>
+    </g>
+  </g>
+</svg>
