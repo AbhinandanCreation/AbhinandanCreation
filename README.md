@@ -19,7 +19,7 @@
 
 <img align="right" src="assets/logo.png" width="220" alt="Abhinandan Creation logo" />
 
-**Abhinandan Creation** is an apparel manufacturer. Our MIS team builds the software that runs the business, so that every order, every roll of fabric and every line on the floor can be seen in real time.
+**Abhinandan Creation** is an intimate-wear manufacturer based in Bhiwandi, Maharashtra. We make bras, panties and moulded innerwear for brands. Our MIS team builds the software that runs the business, so that every order, every roll of fabric and every line on the floor can be seen in real time.
 
 - 🧵 **Sampling & costing**: from the first buyer enquiry to the approved sample
 - 🏗️ **Production**: daily plans, hourly line output and efficiency
@@ -27,6 +27,19 @@
 - 👥 **People & process**: HR forms, delegation, checklists and audits
 
 <br clear="right" />
+
+### 🏢 Company at a glance
+
+| | |
+|---|---|
+| 🏷️ **Company** | Abhinandan Creation |
+| 👙 **Industry** | Intimate wear & lingerie manufacturing |
+| 🧵 **Products** | Bras, panties, moulded innerwear |
+| 🤝 **Business model** | Manufacturing for brands (B2B) |
+| 📍 **Location** | Bhiwandi, Maharashtra, India |
+| 🌐 **Website** | [abhinandancreation.in](https://abhinandancreation.in) |
+| 📧 **Email** | [mis@abhinandancreation.in](mailto:mis@abhinandancreation.in) |
+| 💻 **Tech team** | In-house MIS team |
 
 <div align="center">
   <img src="assets/stats.svg" alt="13 web apps, 8+ departments, 6 order stages, 100% built in-house" width="100%" />
@@ -231,6 +244,7 @@ Automation that keeps the shared Help Tickets register tidy: solved tickets move
 
 ## 📬 Get in touch
 
+<a href="https://abhinandancreation.in"><img src="https://img.shields.io/badge/Website-abhinandancreation.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="mailto:mis@abhinandancreation.in"><img src="https://img.shields.io/badge/Email-mis%40abhinandancreation.in-0b3a68?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <img src="assets/footer.svg" alt="Crafted with care by the MIS team" width="100%" />
