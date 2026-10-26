@@ -56,7 +56,7 @@
 ## 🗺️ How every system connects
 
 <div align="center">
-  <img src="assets/system-map.svg" alt="System map: Sampling, Inward Quality, Production, Final QC and Dispatch, all connected by the Platform & People layer" width="100%" />
+  <img src="assets/system-map-v2.svg" alt="System map: Sampling, Inward Quality, Production, Final QC and Dispatch, all connected by the Platform & People layer" width="100%" />
 </div>
 
 <img src="assets/divider.svg" width="100%" />
