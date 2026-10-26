@@ -59,6 +59,20 @@
   <img src="assets/system-map-v2.svg" alt="System map: Sampling, Inward Quality, Production, Final QC and Dispatch, all connected by the Platform & People layer" width="100%" />
 </div>
 
+## 📊 Full project flowchart
+
+Every one of our 13 web apps, the order it runs in, and the checks where work loops back.
+
+<div align="center">
+  <img src="assets/flowchart.svg" alt="Flowchart: Buyer enquiry, Costing Enquiry, Sample Tracker and Internal Sample Tracker, buyer approval, PMS Master Order Plan, 4-Point Fabric Inspection and MQA, materials check, AC Production Report, AQL Quality Portal, AQL check, Dispatch. AC Central Hub, Help Ticket Sheet, Delegation System, Checklist Dashboards and HR Forms support every stage." width="100%" />
+
+  <br/>
+
+  <a href="https://github.com/AbhinandanCreation/AbhinandanCreation/raw/main/flowchart/abhinandan-creation-flowchart.png"><img src="https://img.shields.io/badge/Download-PNG-0b3a68?style=for-the-badge&logo=files&logoColor=white" /></a>
+  <a href="https://github.com/AbhinandanCreation/AbhinandanCreation/raw/main/flowchart/abhinandan-creation-flowchart.pdf"><img src="https://img.shields.io/badge/Download-PDF-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
+  <a href="https://github.com/AbhinandanCreation/AbhinandanCreation/raw/main/flowchart/abhinandan-creation-flowchart.svg"><img src="https://img.shields.io/badge/Download-SVG-f5b942?style=for-the-badge&logo=inkscape&logoColor=white" /></a>
+</div>
+
 <img src="assets/divider.svg" width="100%" />
 
 ## 🧩 Our web apps
