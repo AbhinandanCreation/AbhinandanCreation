@@ -243,6 +243,8 @@ Automation that keeps the shared Help Tickets register tidy: solved tickets move
 <a href="https://abhinandancreation.in"><img src="https://img.shields.io/badge/Website-abhinandancreation.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="mailto:mis@abhinandancreation.in"><img src="https://img.shields.io/badge/Email-mis%40abhinandancreation.in-0b3a68?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
+<sub>Built and maintained by <a href="https://github.com/Aniketgupta149"><b>Aniket Gupta</b></a> · MIS team</sub>
+
 <img src="assets/footer.svg" alt="Crafted with care by the MIS team" width="100%" />
 
 </div>
