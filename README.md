@@ -57,9 +57,9 @@
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial','fontSize':'15px','lineColor':'#58a6ff'}}}%%
-flowchart LR
+flowchart TB
     subgraph S1["🧵 Merchandising & Sampling"]
-        direction TB
+        direction LR
         A["💰 Costing Enquiry<br/>buyer enquiry · PDF"]
         B["🧵 Sample Tracker<br/>Fit → Size Set → PP → GPT"]
         C["✂️ Internal Sample Tracker<br/>sampling room jobs"]
@@ -67,27 +67,27 @@ flowchart LR
     end
 
     subgraph S2["🔎 Inward Quality"]
-        direction TB
+        direction LR
         F["🧶 4-Point Fabric<br/>roll scoring"]
         M["🏷️ MQA Trims<br/>10 / 50 / 100%"]
     end
 
     subgraph S3["🏗️ Production"]
-        direction TB
+        direction LR
         D["📋 PMS · Master Order Plan<br/>cutting → finishing"]
         P["📈 Production Report<br/>hourly · line-wise"]
         D ==> P
     end
 
     subgraph S4["✅ Final Quality & Dispatch"]
-        direction TB
+        direction LR
         Q["✅ AQL Portal<br/>final inspection"]
         X(["🚚 Dispatch"])
         Q ==> X
     end
 
     subgraph S5["🏠 Platform & People"]
-        direction TB
+        direction LR
         H["🏠 AC Central Hub<br/>single sign-in · Help Desk"]
         K["🔍 PC Audit Dashboard<br/>checklists · FMS audit"]
         T["🎫 Help Tickets"]
