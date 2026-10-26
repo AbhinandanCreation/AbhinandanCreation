@@ -53,29 +53,74 @@
   <img src="assets/pipeline.svg" alt="Order flow: Enquiry, Sampling, Planning, Production, Quality, Dispatch" width="100%" />
 </div>
 
-<details>
-<summary><b>🗺️ See how every system connects</b></summary>
-<br/>
+## 🗺️ How every system connects
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial','fontSize':'15px','lineColor':'#58a6ff','primaryTextColor':'#ffffff'}}}%%
 flowchart LR
-    A[💰 Costing Enquiry] --> B[🧵 Sample Tracker]
-    B --> C[✂️ Internal Sample Tracker]
-    B --> D[📋 PMS · Master Order Plan]
-    M[🏷️ MQA · Trims] --> D
-    F[🧶 4-Point Fabric] --> D
-    D --> P[📈 Production Report]
-    P --> Q[✅ AQL Portal]
-    Q --> X((🚚 Dispatch))
-    H[🏠 AC Central Hub] -.-> B
-    H -.-> D
-    H -.-> P
-    H -.-> Q
-    K[🔍 PC Audit Dashboard] -.audits.-> D
-    T[🎫 Help Tickets] -.-> H
-```
+    subgraph S1["🧵 Merchandising & Sampling"]
+        direction TB
+        A["💰 Costing Enquiry<br/><small>buyer enquiry · PDF</small>"]
+        B["🧵 Sample Tracker<br/><small>Fit → Size Set → PP → GPT</small>"]
+        C["✂️ Internal Sample Tracker<br/><small>sampling room jobs</small>"]
+        A ==> B ==> C
+    end
 
-</details>
+    subgraph S2["🔎 Inward Quality"]
+        direction TB
+        F["🧶 4-Point Fabric<br/><small>roll scoring</small>"]
+        M["🏷️ MQA Trims<br/><small>10 / 50 / 100%</small>"]
+    end
+
+    subgraph S3["🏗️ Production"]
+        direction TB
+        D["📋 PMS · Master Order Plan<br/><small>cutting → finishing</small>"]
+        P["📈 Production Report<br/><small>hourly · line-wise</small>"]
+        D ==> P
+    end
+
+    subgraph S4["✅ Final Quality & Dispatch"]
+        direction TB
+        Q["✅ AQL Portal<br/><small>final inspection</small>"]
+        X(["🚚 Dispatch"])
+        Q ==> X
+    end
+
+    subgraph S5["🏠 Platform & People"]
+        direction TB
+        H["🏠 AC Central Hub<br/><small>single sign-in · Help Desk</small>"]
+        K["🔍 PC Audit Dashboard<br/><small>checklists · FMS audit</small>"]
+        T["🎫 Help Tickets"]
+        G["🗂️ Delegation"]
+        R["👥 HR Forms"]
+    end
+
+    B ==>|order confirmed| D
+    F ==>|fabric passed| D
+    M ==>|trims passed| D
+    P ==>|goods ready| Q
+    H -.->|opens| S1
+    H -.->|opens| S3
+    K -.->|audits| D
+    T -.-> H
+
+    classDef merch fill:#7c3aed,stroke:#c4b5fd,stroke-width:2px,color:#fff
+    classDef qc fill:#0891b2,stroke:#67e8f9,stroke-width:2px,color:#fff
+    classDef prod fill:#16a34a,stroke:#86efac,stroke-width:2px,color:#fff
+    classDef ship fill:#1f6feb,stroke:#93c5fd,stroke-width:2px,color:#fff
+    classDef plat fill:#0b3a68,stroke:#f5b942,stroke-width:2px,color:#fff
+    class A,B,C merch
+    class F,M,Q qc
+    class D,P prod
+    class X ship
+    class H,K,T,G,R plat
+    style S1 fill:#7c3aed14,stroke:#7c3aed,stroke-width:2px,color:#8b949e
+    style S2 fill:#0891b214,stroke:#0891b2,stroke-width:2px,color:#8b949e
+    style S3 fill:#16a34a14,stroke:#16a34a,stroke-width:2px,color:#8b949e
+    style S4 fill:#1f6feb14,stroke:#1f6feb,stroke-width:2px,color:#8b949e
+    style S5 fill:#0b3a6814,stroke:#f5b942,stroke-width:2px,color:#8b949e
+    linkStyle default stroke:#58a6ff,stroke-width:2px
+```
 
 <img src="assets/divider.svg" width="100%" />
 
