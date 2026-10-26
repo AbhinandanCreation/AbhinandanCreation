@@ -55,71 +55,9 @@
 
 ## 🗺️ How every system connects
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial','fontSize':'15px','lineColor':'#58a6ff'}}}%%
-flowchart TB
-    subgraph S1["🧵 Merchandising & Sampling"]
-        direction LR
-        A["💰 Costing Enquiry<br/>buyer enquiry · PDF"]
-        B["🧵 Sample Tracker<br/>Fit → Size Set → PP → GPT"]
-        C["✂️ Internal Sample Tracker<br/>sampling room jobs"]
-        A ==> B ==> C
-    end
-
-    subgraph S2["🔎 Inward Quality"]
-        direction LR
-        F["🧶 4-Point Fabric<br/>roll scoring"]
-        M["🏷️ MQA Trims<br/>10 / 50 / 100%"]
-    end
-
-    subgraph S3["🏗️ Production"]
-        direction LR
-        D["📋 PMS · Master Order Plan<br/>cutting → finishing"]
-        P["📈 Production Report<br/>hourly · line-wise"]
-        D ==> P
-    end
-
-    subgraph S4["✅ Final Quality & Dispatch"]
-        direction LR
-        Q["✅ AQL Portal<br/>final inspection"]
-        X(["🚚 Dispatch"])
-        Q ==> X
-    end
-
-    subgraph S5["🏠 Platform & People"]
-        direction LR
-        H["🏠 AC Central Hub<br/>single sign-in · Help Desk"]
-        K["🔍 PC Audit Dashboard<br/>checklists · FMS audit"]
-        T["🎫 Help Tickets"]
-        G["🗂️ Delegation"]
-        R["👥 HR Forms"]
-    end
-
-    B ==>|order confirmed| D
-    F ==>|fabric passed| D
-    M ==>|trims passed| D
-    P ==>|goods ready| Q
-    H -.->|opens| B
-    H -.->|opens| D
-    K -.->|audits| D
-    T -.-> H
-
-    classDef merch fill:#7c3aed,stroke:#c4b5fd,stroke-width:2px,color:#fff
-    classDef qc fill:#0891b2,stroke:#67e8f9,stroke-width:2px,color:#fff
-    classDef prod fill:#16a34a,stroke:#86efac,stroke-width:2px,color:#fff
-    classDef ship fill:#1f6feb,stroke:#93c5fd,stroke-width:2px,color:#fff
-    classDef plat fill:#0b3a68,stroke:#f5b942,stroke-width:2px,color:#fff
-    class A,B,C merch
-    class F,M,Q qc
-    class D,P prod
-    class X ship
-    class H,K,T,G,R plat
-    style S1 fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px,color:#0b3a68
-    style S2 fill:#e0f7fa,stroke:#0891b2,stroke-width:2px,color:#0b3a68
-    style S3 fill:#e8f7ee,stroke:#16a34a,stroke-width:2px,color:#0b3a68
-    style S4 fill:#e7f0ff,stroke:#1f6feb,stroke-width:2px,color:#0b3a68
-    style S5 fill:#fff7e0,stroke:#f5b942,stroke-width:2px,color:#0b3a68
-```
+<div align="center">
+  <img src="assets/system-map.svg" alt="System map: Sampling, Inward Quality, Production, Final QC and Dispatch, all connected by the Platform & People layer" width="100%" />
+</div>
 
 <img src="assets/divider.svg" width="100%" />
 

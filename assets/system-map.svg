@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8b949e"/></marker></defs><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.7s" fill="freeze"/>
+<rect x="20" y="16" width="250" height="250" rx="22" fill="#f3e8ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="145" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="#7c3aed">🧵 Sampling</text><rect x="40" y="68.66666666666667" width="210" height="54" rx="16" fill="#7c3aed"/>
+<text x="145" y="91.66666666666667" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Costing Enquiry</text>
+<text x="145" y="110.66666666666667" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">buyer enquiry · PDF</text><rect x="40" y="132" width="210" height="54" rx="16" fill="#7c3aed"/>
+<text x="145" y="155" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Sample Tracker</text>
+<text x="145" y="174" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">Fit → PP → GPT</text><rect x="40" y="195.33333333333334" width="210" height="54" rx="16" fill="#7c3aed"/>
+<text x="145" y="218.33333333333334" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Internal Sample</text>
+<text x="145" y="237.33333333333334" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">sampling room</text></g><path d="M274 141H319.3333333333333" stroke="#8b949e" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/></path>
+<text x="296.66666666666663" y="129" text-anchor="middle" font-size="11" fill="#8b949e">order</text>
+<text x="296.66666666666663" y="163" text-anchor="middle" font-size="11" fill="#8b949e">confirmed</text><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.7s" fill="freeze"/>
+<rect x="323.3333333333333" y="16" width="250" height="250" rx="22" fill="#e0f7fa" stroke="#0891b2" stroke-width="2"/>
+<text x="448.3333333333333" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="#0891b2">🔎 Inward Quality</text><rect x="343.3333333333333" y="84.5" width="210" height="54" rx="16" fill="#0891b2"/>
+<text x="448.3333333333333" y="107.5" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4-Point Fabric</text>
+<text x="448.3333333333333" y="126.5" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">roll scoring</text><rect x="343.3333333333333" y="179.5" width="210" height="54" rx="16" fill="#0891b2"/>
+<text x="448.3333333333333" y="202.5" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">MQA Trims</text>
+<text x="448.3333333333333" y="221.5" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">10 / 50 / 100%</text></g><path d="M577.3333333333333 141H622.6666666666666" stroke="#8b949e" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/></path>
+<text x="600" y="129" text-anchor="middle" font-size="11" fill="#8b949e">materials</text>
+<text x="600" y="163" text-anchor="middle" font-size="11" fill="#8b949e">passed</text><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.7s" fill="freeze"/>
+<rect x="626.6666666666666" y="16" width="250" height="250" rx="22" fill="#e8f7ee" stroke="#16a34a" stroke-width="2"/>
+<text x="751.6666666666666" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="#16a34a">🏗️ Production</text><rect x="646.6666666666666" y="84.5" width="210" height="54" rx="16" fill="#16a34a"/>
+<text x="751.6666666666666" y="107.5" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">PMS Order Plan</text>
+<text x="751.6666666666666" y="126.5" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">cutting → finishing</text><rect x="646.6666666666666" y="179.5" width="210" height="54" rx="16" fill="#16a34a"/>
+<text x="751.6666666666666" y="202.5" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Production Report</text>
+<text x="751.6666666666666" y="221.5" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">hourly · line-wise</text></g><path d="M880.6666666666666 141H926" stroke="#8b949e" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/></path>
+<text x="903.3333333333333" y="129" text-anchor="middle" font-size="11" fill="#8b949e">goods</text>
+<text x="903.3333333333333" y="163" text-anchor="middle" font-size="11" fill="#8b949e">ready</text><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6000000000000001s" dur="0.7s" fill="freeze"/>
+<rect x="930" y="16" width="250" height="250" rx="22" fill="#e7f0ff" stroke="#1f6feb" stroke-width="2"/>
+<text x="1055" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="#1f6feb">✅ Final QC & Dispatch</text><rect x="950" y="84.5" width="210" height="54" rx="16" fill="#1f6feb"/>
+<text x="1055" y="107.5" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">AQL Portal</text>
+<text x="1055" y="126.5" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">final inspection</text><rect x="950" y="179.5" width="210" height="54" rx="16" fill="#1f6feb"/>
+<text x="1055" y="202.5" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Dispatch</text>
+<text x="1055" y="221.5" text-anchor="middle" font-size="12" fill="#fff" fill-opacity="0.85">goods out</text></g><rect x="20" y="292" width="1160" height="64" rx="22" fill="#0b3a68" stroke="#f5b942" stroke-width="2"/>
+<text x="44" y="330" font-size="15" font-weight="700" fill="#f5b942">🏠 Platform &amp; People</text><rect x="260" y="306" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.35"/>
+<text x="344" y="329" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">AC Central Hub</text><rect x="442" y="306" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.35"/>
+<text x="526" y="329" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">PC Audit Dashboard</text><rect x="624" y="306" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.35"/>
+<text x="708" y="329" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">Delegation</text><rect x="806" y="306" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.35"/>
+<text x="890" y="329" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">HR Forms</text><rect x="988" y="306" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.35"/>
+<text x="1072" y="329" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">Help Tickets</text><path d="M145 268V290" stroke="#f5b942" stroke-width="2" stroke-dasharray="4 5"><animate attributeName="stroke-dashoffset" values="0;18" dur="1.2s" repeatCount="indefinite"/></path><path d="M448.3333333333333 268V290" stroke="#f5b942" stroke-width="2" stroke-dasharray="4 5"><animate attributeName="stroke-dashoffset" values="0;18" dur="1.2s" repeatCount="indefinite"/></path><path d="M751.6666666666666 268V290" stroke="#f5b942" stroke-width="2" stroke-dasharray="4 5"><animate attributeName="stroke-dashoffset" values="0;18" dur="1.2s" repeatCount="indefinite"/></path><path d="M1055 268V290" stroke="#f5b942" stroke-width="2" stroke-dasharray="4 5"><animate attributeName="stroke-dashoffset" values="0;18" dur="1.2s" repeatCount="indefinite"/></path></svg>
